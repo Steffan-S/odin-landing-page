@@ -152,6 +152,46 @@ nav div ul li a,
 }
 
 
+/* CTA */
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.cta-container {
+    background: #3882F6;
+    border-radius: 8px;
+    padding: 40px 100px;
+    max-width: 1000px;
+    border-radius: 6px;
+    color: #fff;
+    gap: 32px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-container-item button {
+    background: transparent;
+    border: 2px solid white;
+    padding: 6px 32px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.cta-container-item h4 {
+    font-size: 21px;
+    letter-spacing: -1px;
+}
+
+.cta-container-item p {
+    color: #ffffffdc;
+}
 
 
 
